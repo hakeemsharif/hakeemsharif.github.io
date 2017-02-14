@@ -1,0 +1,70 @@
+$font-stack: "Sansation";
+$primary-color: #00AEDB;
+$secondary-color: #FFFFFF;
+
+
+
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    height: 350px;
+    margin-top: 25px;
+}
+
+.Port_Logo{
+    width: 26%;
+    height: auto;
+    user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+h1{
+    font-family: $font-stack;
+    font-size: 3em;
+    margin-top: 5px;
+    color: $primary-color;
+    margin-bottom: -10px;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    font-family: $font-stack;
+    color: $primary-color;
+}
+
+.Info_Port{
+    border: 3px solid $primary-color;
+    height: 650px;
+}
+.Portfolio{
+   width: 100%;
+}
+
+.Info_1{
+    text-align: center;
+    font-family: "Cambria";
+    font-size: 4em;
+    color: $primary-color;
+}
+
+.Info_2{
+    text-align: center;
+    font-family: "Cambria";
+    font-size: 30px;
+    margin-top: -120px;
+    color: $primary-color;
+}
+
+
+.Info_3{
+    text-align: center;
+    font-family: "Cambria";
+    font-size: 30px;
+    color: $primary-color;
+}

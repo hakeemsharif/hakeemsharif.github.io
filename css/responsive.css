@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "...ia (min-width: ": expected expression (e.g. 1px, bold), was "@screen-sm-min)..."
+        on line 5 of E:\Hakz\Personal Site v6\scss\respon.scss
+
+1: 
+2: 
+3: 
+4: 
+5: @media (min-width: @screen-sm-min) { ... }
+6: 
+7: /* Medium devices (desktops, 992px and up) *\/
+8: @media (min-width: @screen-md-min) { 
+9:  #HEAD{
+10:     color: white;
+
+Backtrace:
+E:\Hakz\Personal Site v6\scss\respon.scss:5
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/lexer.rb:220:in `expected!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:573:in `assert_expr'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:62:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1027:in `sass_script'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:465:in `query_expr'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:440:in `media_query'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:406:in `media_query_list'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1079:in `expr!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:401:in `media_directive'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:219:in `special_directive'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:194:in `directive'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:650:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ia (min-width: \": expected expression (e.g. 1px, bold), was \"@screen-sm-min)...\"\A         on line 5 of E:\Hakz\Personal Site v6\scss\respon.scss\A \A 1: \A 2: \A 3: \A 4: \A 5: @media (min-width: @screen-sm-min) { ... }\A 6: \A 7: /* Medium devices (desktops, 992px and up) */\A 8: @media (min-width: @screen-md-min) { \A 9:  #HEAD{\A 10:     color: white;"; }
