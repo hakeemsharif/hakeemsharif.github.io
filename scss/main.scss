@@ -9,6 +9,11 @@ $secondary-color: #FFFFFF;
     flex-direction: column;
     justify-content: center;
     align-items:  center;
+    
+     position: fixed;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
 }
 
 #Ending{
@@ -54,11 +59,23 @@ h2{
      -webkit-animation-delay: .9s;
 }
 
+h3{
+    text-align: right;
+    color: $primary-color;
+    font-family: $font-stack;
+    font-size: 12px;
+    margin-top: -20px;
+     max-width: 720px;
+     -webkit-animation-delay: .9s;
+}
+
 #Everything{
-    height: 800px;
-    margin-top: 50px;
-    max-width: 700px;
-   
+    max-width: 50%;
+    margin-top: 35px;
+     position: absolute;
+    right: 0;
+
+     height: auto;
 }
 
 #HEAD{
@@ -91,7 +108,7 @@ h2{
     color: Grey;
     font-size: 16px;
     text-align: justify;
-    max-width: auto;
+    max-width: 720px;
     margin-left: 30px;
     -webkit-animation-delay: 1.7s;
 }
@@ -101,15 +118,17 @@ h2{
     color: Grey;
     font-size: 16px;
     text-align: justify;
-    max-width: auto;
+     max-width: 720px;
     margin-left: 30px;
     -webkit-animation-delay: 1.9s;
 }
 
 .progress{
+     max-width: 720px;
  margin-left: 30px;
     font-family: $font-stack;
      -webkit-animation-delay: 2.1s;
+    
 }
 .progress .sr-only { position: relative; }
 
