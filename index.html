@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="assest/Logo/Me.png">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
-    
     <link rel="stylesheet" href="./css/style.css"/> 
-    
+     <link rel="stylesheet" href="./css/responsive.css"/> 
     <link rel="stylesheet" href="./css/animate.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300i" rel="stylesheet">
@@ -36,7 +35,7 @@
             <p id ="INFO">Hi! I'm Hakeem Sharif but my friends call me Hakz. I'm a Front End Web Developer and Web Designer... Yeah yeah im "Straight Outta Riyadh".. 
         <br>
         <br>
-        <br>    
+        <br>
             </p>
             <p id ="HEAD3">FEW FUN FACTS</p>
             <p id ="INFO2">I love collecting Sneakers especially Adidas.<br>
@@ -47,7 +46,7 @@
                 I broke my Right Arm twice at the age of 6 and 7.</p>
         <br>
             <p id ="HEAD2">SKILLS</p>
-            <div class="progress">
+                <div class="progress">
                     <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 85%"  > 
                     <span class="sr-only">HTML5 - 85% </span>
                     </div>                     
@@ -82,18 +81,18 @@
                     <span class="sr-only">PHP - 78% </span>
                     </div>                  
             </div>
-        
              <div class="progress">   
                     <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 88%" > 
                     <span class="sr-only">MySQL - 88% </span>
                     </div>                  
             </div>
-        
+
             <div class="progress">   
                     <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 92%" > 
                     <span class="sr-only">vb.NET - 92% </span>
                     </div>                  
             </div>
+
         
             <div class="progress">   
                     <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%" > 
@@ -106,6 +105,8 @@
                     <span class="sr-only">Adobe XD - 83%</span>
                     </div>                  
             </div>
+
+           
   </div>
 </div>
   </div>  
@@ -126,6 +127,27 @@
            $('#INFO').addClass('animated fadeIn');
            $('#INFO2').addClass('animated fadeIn');
            $('.progress').addClass('animated fadeIn');
+           
+           var pct = 0,
+  span_progress = document.getElementById("span_progress"),
+  div_loading_progress = document.getElementById("div_loading_progress");
+
+
+function display_pct(p) {
+  span_progress.innerHTML="Java "+p+"%";
+  div_loading_progress.className="c100 p"+p;
+}
+
+function update_pct(){
+  display_pct(pct++);
+  		
+  if (pct<=80) {
+			setTimeout(update_pct,50);
+  }
+}
+
+setTimeout(update_pct,100);
+
       </script>
 
 </body>  
