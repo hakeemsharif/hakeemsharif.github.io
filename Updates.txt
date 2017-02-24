@@ -1,7 +1,10 @@
-Date Created 02.14.17
+Date Created 02.05.17
 
 Update notes.
 
-Update 1:
+Update 1 (1/14/16):
 Portfolio Page Added
 OPAC-LMS Page Added
+
+Update 2 (1/18/16):
+Low resolution responsive Fixed
