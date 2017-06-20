@@ -8,3 +8,4 @@ OPAC-LMS Page Added
 
 Update 2 (1/18/16):
 Low resolution responsive Fixed
+kk
