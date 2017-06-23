@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hakeem Sharif</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="manifest" href="/images/manifest.json">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#26bde8">
+<meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="js/scripts.min.js"></script>
+    <link rel="stylesheet" href="/css/about-stylesheet.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="/images/Close-Logo.png" class= "Close-Logo" alt=""></a>
+      <a href="/">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="/Project/">PROJECT</a>
+      <a href="https://drive.google.com/open?id=0B1sxRnyrOFvqMFVLZ19wdW00XzQ">RESUME</a>
+    </div>
+
+    <img src="/images/MenuColored.png" onclick="openNav()" class= "Menu-Logo" alt="none">
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+
+    function openCity(evt, cityName) {
+
+    var i, tabcontent, tablinks;
+
+      tabcontent = document.getElementsByClassName("tabcontent");
+
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+     }
+    </script>
+
+    <div class="container-fluid">
+      <div class="All--Content">
+
+
+        <div class="About--Content">
+            <div class="h1-back">
+            <h1>About</h1>
+            </div>
+            <p>How you be doin' it, mon? Full name's Hakeem Sharif but my
+              friends calls me Hakz. I'm a Front-end web developer.
+              I'm filipino but born and raised in Riyadh.</p>
+        </div>
+
+        <div class="Skills--Content">
+            <div class="h1-back">
+            <h1>Skills</h1>
+          </div>
+          <p> I'm good at <em>HTML5</em>, <em>CSS3</em>, <em>SASS</em> and im still
+          improving on my <em>JavaScript</em>, <em>PHP</em>. I've recently started
+          learning <em>Webpack</em> and <em>React</em>.</p>
+        </div>
+
+        <div class="Random--Content">
+            <div class="h1-back">
+            <h1>Random Facts</h1>
+            </div>
+            <p>
+            I love collecting Sneakers especially Adidas.
+         <br>
+         I also love upgrading my PC.. Well because PC Master Race.
+         <br>
+         I have been playing video game since i got PS1.
+         <br>
+         My Favorite number is 5.
+         <br>
+         I have been playing Tennis since the age of 11.
+         <br>
+         I broke my Right Arm twice at the age of 6 and 7.
+         <br>
+        </div>
+
+    </div>
+  </div>
+
+  </body>
+</html>
