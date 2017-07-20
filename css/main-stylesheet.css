@@ -24,12 +24,6 @@ a:hover, a:focus {
   margin-bottom: -5px;
 }
 
-h1 {
-  margin-bottom: -11px;
-  font-size: calc(112.5% + 1vw);
-  font-family: "Indie Flower", cursive;
-  color: white;
-}
 
 .R-Button, .R-Button:hover, .R-Button:Before, .R-Button:After {
   text-decoration: none;
