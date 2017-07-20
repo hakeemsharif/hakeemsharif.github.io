@@ -25,8 +25,7 @@ a:hover, a:focus {
 }
 
 h1 {
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: -10px;
   font-size: calc(112.5% + 1vw);
   font-family: "Indie Flower", cursive;
   color: white;
