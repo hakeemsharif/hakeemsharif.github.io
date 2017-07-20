@@ -18,6 +18,12 @@ a:hover, a:focus {
 #Hidden {
   display: none;
 }
+h1 {
+  margin-bottom: -11px;
+  font-size: calc(112.5% + 1vw);
+  font-family: "Indie Flower", cursive;
+  color: white;
+}
 
 .Full-Logo {
   max-width: 25%;
