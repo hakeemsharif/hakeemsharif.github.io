@@ -1,0 +1,16 @@
+
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+      console.log(scroll)
+});
+
+
+$(window).scroll(function() {
+  if ($(this).scrollTop()> 300) {
+      $('#Profile').addClass('animated fadeInUp');
+      $('#About--me').addClass('animated fadeInUp');
+      $('#End').addClass('animated fadeInUp');
+      $('#End2').addClass('animated fadeInUp');
+   } else {
+   }
+});
