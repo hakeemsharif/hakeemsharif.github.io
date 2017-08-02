@@ -176,6 +176,13 @@ p#End2 {
     margin-left: 20px;
     margin-top: 40px;
   }
+
+  #Profile {
+    opacity: 0;
+    width: 300px;
+    border-radius: 50%;
+    -webkit-animation-delay: .2s;
+  }
 }
 @media screen and (max-width: 500px) {
   .Header {
