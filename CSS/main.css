@@ -17,7 +17,7 @@ body {
   overflow: hidden;
   text-indent: 101%;
   white-space: nowrap;
-  background-image: url("Images/LogoHZW.png");
+  background-image: url("/Images/LogoHZW.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
