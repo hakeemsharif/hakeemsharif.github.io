@@ -1,4 +1,3 @@
-## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 
     ExpiresActive on
@@ -53,7 +52,6 @@
     ExpiresByType image/bmp                             "access plus 1 month"
     ExpiresByType image/gif                             "access plus 1 month"
     ExpiresByType image/jpg                            "access plus 1 month"
-    ExpiresByType image/jpeg                            "access plus 1 month"
     ExpiresByType image/png                             "access plus 1 month"
     ExpiresByType image/svg+xml                         "access plus 1 month"
     ExpiresByType image/webp                            "access plus 1 month"
@@ -88,4 +86,3 @@
     ExpiresByType text/x-cross-domain-policy            "access plus 1 week"
 
 </IfModule>
-## EXPIRES CACHING ##
