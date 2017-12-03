@@ -1,1 +1,238 @@
-#Title,h2{margin-bottom:20px;color:#000}body{margin:auto}#Test{width:50px}::-moz-selection{color:#fff;background:#4EF5C4}::selection{color:#fff;background:#4EF5C4}.Banner,.Menu-Logo{background-repeat:no-repeat;background-position:center}.Menu-Logo{overflow:hidden;text-indent:101%;white-space:nowrap;background-image:url(/Images/Backw.png);background-size:contain;cursor:auto;position:absolute;left:0;top:0;width:100px;height:100px;margin-left:50px;margin-top:50px}#Title,p{margin-top:10px;text-align:center}.Banner{height:200px;background-image:url(/Images/adidasbanner.jpg);background-size:cover}span{width:700px;border-top:solid 1px #000}#Title{font-size:28px;font-family:"Josefin Sans",sans-serif}#Category,p{font-size:20px}.Information{height:600px;padding:0;display:flex;flex-direction:column;justify-content:center;align-items:center;width:100%}p{font-family:Dosis,sans-serif;font-weight:lighter;width:900px;margin-bottom:10px}em{font-style:normal;color:#00AEDB}h2{width:700px;font-size:28px;text-align:left;font-family:"Josefin Sans",sans-serif}#Details{max-width:700px}#Image-Info{text-align:center;align-items:center;margin:auto}#Info2{max-width:80%}@media screen and (max-width:920px){body{overflow-x:hidden}}@media screen and (max-width:700px){.Menu-Logo{width:50px;height:50px;margin-left:30px;margin-top:72px}#Title{font-size:28px}h2,span{width:600px}#Details{max-width:600px}}@media screen and (max-width:610px){#Title{font-size:28px}h2,span{width:500px}#Details{max-width:500px}}@media screen and (max-width:530px){#Title{font-size:28px}h2,span{width:450px}#Details{max-width:450px}}@media screen and (max-width:450px){#Title{font-size:28px}h2,span{width:400px}#Details{max-width:400px}}@media screen and (max-width:420px){#Title{font-size:28px}h2,span{width:340px}#Details{max-width:360px}}@media screen and (max-width:350px){.Menu-Logo{width:50px;height:50px;margin-left:40px;margin-top:40px}#Title{font-size:28px}h2,span{width:300px}#Details{max-width:300px}}
+body {
+  margin: auto;
+}
+
+#Test {
+  width: 50px;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #4EF5C4;
+}
+
+::selection {
+  color: white;
+  background: #4EF5C4;
+}
+
+.Menu-Logo {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background-image: url("/Images/Backw.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#Info2 {
+  max-width: 100%;
+}
+
+.Banner {
+  height: 200px;
+  background-image: url("/Images/adidasbanner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+span {
+  width: 700px;
+  border-top: solid 1px black;
+}
+
+#Title {
+  margin-top: 10px;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 20px;
+  color: Black;
+}
+
+#Category {
+  font-size: 20px;
+}
+
+.Information {
+  height: 600px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  width: 900px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+em {
+  font-style: normal;
+  color: #00AEDB;
+}
+
+h2 {
+  width: 700px;
+  font-size: 28px;
+  text-align: left;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 20px;
+  color: Black;
+}
+
+#Details {
+  max-width: 700px;
+}
+
+#Image-Info {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+#Info2 {
+  max-width: 80%;
+}
+
+@media screen and (max-width: 920px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 700px) {
+  .Menu-Logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 72px;
+  }
+
+  #Title {
+    font-size: 28px;
+  }
+
+  span {
+    width: 600px;
+  }
+
+  h2 {
+    width: 600px;
+  }
+
+  #Details {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 610px) {
+  #Title {
+    font-size: 28px;
+  }
+
+  span {
+    width: 500px;
+  }
+
+  h2 {
+    width: 500px;
+  }
+
+  #Details {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 530px) {
+  #Title {
+    font-size: 28px;
+  }
+
+  span {
+    width: 450px;
+  }
+
+  h2 {
+    width: 450px;
+  }
+
+  #Details {
+    max-width: 450px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #Title {
+    font-size: 28px;
+  }
+
+  span {
+    width: 400px;
+  }
+
+  h2 {
+    width: 400px;
+  }
+
+  #Details {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 420px) {
+  #Title {
+    font-size: 28px;
+  }
+
+  span {
+    width: 340px;
+  }
+
+  h2 {
+    width: 340px;
+  }
+
+  #Details {
+    max-width: 360px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .Menu-Logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+
+  #Title {
+    font-size: 28px;
+  }
+
+  span {
+    width: 300px;
+  }
+
+  h2 {
+    width: 300px;
+  }
+
+  #Details {
+    max-width: 300px;
+  }
+}
+
+/*# sourceMappingURL=portfolio3.css.map */
