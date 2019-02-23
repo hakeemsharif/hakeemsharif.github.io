@@ -1,18 +1,22 @@
+$primary-color: #00AEDB;
+$secondary-color: #4EF5C4;
+$third-color: white;
+$font1: 'Dosis', sans-serif;
+$font2: 'Open Sans', sans-serif;
+
 body {
   margin: 0;
 }
 
-::-moz-selection {
-  /* Code for Firefox */
-  color: white;
-  background: #4EF5C4;
+::-moz-selection { /* Code for Firefox */
+    color: $third-color;
+    background: $secondary-color;
 }
 
 ::selection {
-  color: white;
-  background: #4EF5C4;
+    color: $third-color;
+    background: $secondary-color;
 }
-
 .Menu-Logo {
   overflow: hidden;
   text-indent: 101%;
@@ -34,24 +38,24 @@ body {
 
 .Header {
   height: 776px;
-  background: white;
+  background: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Dosis", sans-serif;
+  font-family: $font1;
   color: white;
 }
 
 h1 {
-  color: #00AEDB;
+  color: $primary-color;
   font-size: 115px;
   margin: 0;
-  -webkit-animation-delay: .2s;
+    -webkit-animation-delay: .2s;
 }
 
 h2 {
-  color: #00AEDB;
+  color: $primary-color;
   font-size: 31px;
   margin-top: -30px;
   font-weight: lighter;
@@ -59,9 +63,9 @@ h2 {
   text-align: center;
 }
 
-em {
-  color: #4EF5C4;
-  font-style: normal;
+em{
+  color: $secondary-color;
+  font-style: normal; 
 }
 
 #Back--Thumbnail {
@@ -69,26 +73,26 @@ em {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #b6f4ff;
+  background: rgb(182, 244, 255);
+
 }
 
 .Projects {
-  background: #b6f4ff;
+  background: rgb(182, 244, 255);
 }
 
-#row-back {
-  -webkit-animation-delay: .9s;
+#row-back{
+    -webkit-animation-delay: .9s;
 }
-
 #Project--Thumbnail {
-  width: 100%;
-  height: 60%;
+width: 100%;
+height: 60%;
 }
 
 #Project--Thumbnail:hover {
-  -moz-transform: scale(1.1, 1.1);
-  -webkit-transform: scale(1.1, 1.1);
-  transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1,1.1);
+  -webkit-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
   transition: all 0.2s;
 }
 
@@ -103,18 +107,20 @@ em {
 #Profile {
   width: 400px;
   border-radius: 50%;
-  -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
 }
 
+
 p {
-  -webkit-animation-delay: .4s;
+    -webkit-animation-delay: .4s;
   padding-top: 50px;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: $font2;
   font-size: 15px;
 }
+
 
 @media screen and (max-width: 800px) {
   .Menu-Logo {
@@ -124,8 +130,9 @@ p {
     margin-top: 40px;
   }
 }
+
 @media screen and (max-width: 600px) {
-  h1 {
+  h1{
     font-size: 91px;
   }
 
@@ -141,17 +148,19 @@ p {
     margin-top: 40px;
   }
 }
-@media screen and (max-width: 500px) {
-  .Header {
-    height: 100vh;
-  }
 
-  #Profile {
+@media screen and (max-width: 500px) {
+  .Header{
+      height: 100vh;
+  }
+  #Profile{
     width: 100%;
   }
+
 }
+
 @media screen and (max-width: 360px) {
-  h1 {
+  h1{
     font-size: 80px;
   }
 
@@ -159,17 +168,21 @@ p {
     font-size: 15px;
     margin-top: -27px;
   }
+
+
 }
-footer {
-  font-family: "Open Sans", sans-serif;
+
+footer{
+  font-family: $font2;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 180px;
-  background: #b6f4ff;
+  background: rgb(182, 244, 255);
 }
+
 
 p#End {
   font-size: 20px;
@@ -179,13 +192,11 @@ p#End {
 
 p#End2 {
   margin-top: -60px;
-  -webkit-animation-delay: .6s;
+    -webkit-animation-delay: .6s;
 }
 
-img.Social_logo {
+img.Social_logo{
   width: 35px;
   padding-right: 5px;
   padding-left: 5px;
 }
-
-/*# sourceMappingURL=main.css.map */
